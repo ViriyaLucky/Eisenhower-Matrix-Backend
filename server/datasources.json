@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "data": {
+    "host": "mongodb+srv://user:<password>@cluster0-7bapd.mongodb.net/test?retryWrites=true&w=majority",
+    "port": 27017,
+    "url": "",
+    "database": "user",
+    "password": "",
+    "name": "data",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
