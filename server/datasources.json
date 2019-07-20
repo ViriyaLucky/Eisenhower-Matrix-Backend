@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "data": {
-    "host": "mongodb+srv://user:<user>@cluster0-7bapd.mongodb.net/test?retryWrites=true&w=majority",
+    "host": "cluster0-shard-00-00-7bapd.mongodb.net",
     "port": 27017,
-    "url": "",
-    "database": "user",
-    "password": "",
+    "url": "mongodb://user:user@cluster0-shard-00-00-7bapd.mongodb.net:27017,cluster0-shard-00-01-7bapd.mongodb.net:27017,cluster0-shard-00-02-7bapd.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "database": "task",
+    "password": "user",
     "name": "data",
-    "user": "",
+    "user": "user",
     "useNewUrlParser": true,
     "connector": "mongodb"
   }
